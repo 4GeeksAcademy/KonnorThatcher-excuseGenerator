@@ -40,7 +40,7 @@ let sentenceStructure = [whoDunnit, actionThatHappened, thingIWasSupposedToAtten
 let excuseGenerator = (array) => {
   const sentence = [];
   for (let i of array) {
-    let rng = Math.floor(Math.random() * array.length);
+    let rng = Math.floor(Math.random() * i.length);
     console.log(rng);
     sentence.push(i[rng]);
   }

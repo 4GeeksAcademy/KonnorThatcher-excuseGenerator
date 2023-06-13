@@ -1,7 +1,13 @@
 body {
     background-color: steelblue;
+    font-family: 'Rubik';
+    color: black;
 }
 
 h1, h2, p {
     text-align: center;
+}
+
+h1, h2 {
+    font-weight: bold;
 }
