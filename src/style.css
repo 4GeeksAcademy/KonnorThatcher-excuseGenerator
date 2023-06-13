@@ -1,1 +1,7 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    background-color: steelblue;
+}
+
+h1, h2, p {
+    text-align: center;
+}

@@ -3,27 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>The Very Best Excuse Generator Ever Built</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container-fluid">
+      <h1>THE VERY BEST EXCUSE GENERATOR EVER BUILT</h1>
+      <p>is the the very best excuse generator ever built! These excuses are just so detailed, so absurdly specific, that they just have to be real. Right? </p>
+      <h2>HOW IT WORKS:</h2>
+      <p>Below in the white box contains the excuse that has been generated for you. Everytime the page loads, the generator will randomly pull from the following items: </p>
+      <div class="d-flex align-items-center justify-content-center">
+        <ul>
+          <li><b>Who Dunnit:</b><br> This is the person who will be blamed for this grievous sin.</li>
+          <li><b>Action That Happened:</b><br> This is the thing said person has done to the thing you were supposed to do.</li>
+          <li><b>Thing That Was Supposed To Be Attended To:</b><br> This is what was supposed to be done.</li>
+          <li><b>When/Where It Happened:</b><br> When or where this thing happened.</li>
+        </ul>
       </div>
+      <p>These items will be printed into the box. Just click the box to open your excuse for you use. If you are not satisfied with your excuse, you have the option to reroll for a new excuse.</p>
+      <!--Put modal here-->
+      <p id="excuse-generator" class="bg-light mt-5"></p>
     </div>
+
+    <!--Bootstrap Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
