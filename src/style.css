@@ -1,7 +1,12 @@
 body {
     background-color: steelblue;
     font-family: 'Rubik';
+    font-size: 1.6em;
     color: black;
+}
+
+h1 {
+    font-size: 2em;
 }
 
 h1, h2, p {
